@@ -1,0 +1,23 @@
+# Project Files #
+#################
+.project
+node_modules
+
+# OS Files #
+############
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Temp Files #
+##############
+*~
+*.tmp*
+*.orig
+*.cache
+*.log
+
+apache-opennlp-1.5.3
+~$*
+The Jungle!!!!!.md
