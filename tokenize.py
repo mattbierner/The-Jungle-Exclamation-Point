@@ -10,8 +10,7 @@ def npl_tokenize(file):
     return out
 
 def tokenize(file):
-    tokenized_text = npl_tokenize(file)
-    return re.findall('(\w+|\!)', tokenized_text)
+    return re.findall('(\w+|\!)', file.read())
 
 def tokenize_per_chapter(file):
     chapters = re.split('Chapter\s+\d+', file.read(), flags=re.M)
